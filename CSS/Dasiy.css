@@ -1,0 +1,167 @@
+html ,body  {
+	padding: 0 ;
+	margin:  0;
+    background: url("..img/薄荷绿.JPG")center no-repeat ;
+    z-index:-18;
+   
+}
+.img{
+	padding:1920px 1200px;
+}
+.head{
+    background: rgba(234, 255, 224, 0.94);
+    width:100% ;
+    height: 120px;
+    padding-top: 10px;
+    opacity:0.8;
+}
+.head .head_top{
+    margin: 0 auto;
+    padding-left: 300px;
+}
+.demo{
+    width: 1200px;
+    height:160px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.demo .nav{
+    width: auto;
+    height: 120px;
+}
+.nav ul li{
+    display:block;
+    float: left;
+
+}
+.nav ul li a{
+    width: 180px;
+    height: 100px;
+    background: url("../img/大背景.jpeg") no-repeat;
+    line-height: 70px;
+    text-align: center;
+    color: #9381ff;
+    text-decoration: none;
+    display: block;
+    font-family: "微软雅黑";
+    margin-bottom: 30px;
+}
+.nav a:hover{
+    background: url("../img/音乐.jpg") no-repeat;
+    color: #0de8b5;
+    text-decoration: none;
+}
+.pit{
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+}
+.pit .top{
+    width: 900px;
+    height: 280px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+.top .top_left{
+    float: left;
+    width:430px ;
+    height: 260px;
+    padding: 10px 10px;
+
+}
+.top .top_right{
+    float: left;
+    width:430px ;
+    height: 260px;
+    padding: 10px 10px;
+
+}
+.top_right .top_right_top{
+    float: left;
+    width: 200px;
+    height: 250px;
+    padding: 5px 7.5px ;
+
+
+}
+.top_right .top_right_buttom{
+    float: left;
+    width: 200px;
+    height: 250px;
+    padding: 5px 7.5px ;
+
+
+}
+.pit .button{
+    float: left;
+    width: 900px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button .but_one{
+    width: 270px;
+    height: 270px;
+    padding:5px 15px;
+    float: left;
+
+}
+.button .but_tow{
+    width: 270px;
+    height: 270px;
+    padding:5px 15px;
+    float: left;
+
+}
+.button .but_three{
+    width: 270px;
+    height: 270px;
+    padding:5px 15px;
+    float: left;
+
+}
+.photos{
+    width: 960px;
+    height: 250px;
+    margin: 30px auto;
+
+}
+.photos  .ph_one{
+    width: 300px;
+    height: 230px;
+    float: left;
+    padding: 10px 10px;
+
+}
+.photos  .ph_tow{
+    width: 300px;
+    height: 230px;
+    float: left;
+    padding: 10px 10px;
+
+}
+.photos  .ph_three{
+    width: 300px;
+    height: 230px;
+    float: left;
+    padding: 10px 10px;
+
+}
+.foot{
+    height: 30px;
+    margin-left: 30px;
+}
+canvas
+{
+    width: 100%;
+    height: 1300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -10;
+}

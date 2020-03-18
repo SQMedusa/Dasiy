@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+<style>
+		body, html, ul, ol{
+	padding: 0;
+	margin: 0;
+}
+ul ,ol{
+list-style: none;	
+}
+.wrapper {
+	width: 520px;
+	height: 280px;
+	overflow: hidden;
+	
+	position: relative;
+	margin: 150px auto;
+}
+.wrapper .banner{
+	width: 520px;
+	height: 280px;
+	overflow: hidden;
+}
+.wrapper .banner ul{
+	width:2600px;/*>=2600曾是520*5*/
+	height: 280px;
+	margin-left: -520px;/*向左移动一张照片的宽度*/
+}
+.wrapper .banner ul li a{
+	display: block;
+	
+}
+.wrapper .banner ul li a img{
+	width: 520px;
+	height: 280px;
+	display: block;
+}
+</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<!--图片-->
+			<div class="banner">
+				<ul>
+					<li>
+						<a href="#"><img src="img/1.jpg"alt=""></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/2.jpg"alt=""></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/3.jpg"alt=""></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/4.jpg"alt=""></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/5.jpg"alt=""></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
